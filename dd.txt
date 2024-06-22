@@ -1,0 +1,17 @@
+dolphin develop trick diamond pond crumble prefer icon lunar excite hope buffalo
+
+term 1  
+git clone https://github.com/dappuniversity/dappcord.git
+cd dappcord  
+npm init
+npm install
+npx hardhat test
+npx hardhat node
+term 2
+cd dappcord
+npx hardhat run ./scripts/deploy.js --network localhost
+cd src
+npm  run start
+
+http://127.0.0.1:8545
+31337
